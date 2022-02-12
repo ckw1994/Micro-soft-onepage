@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* 공통 */
+
+header{
+    height: 100px;
+    position: relative;
+    /* background: #999; */
+   
+    border-bottom: 1px solid #797677;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+header .logo {
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+#gnb{
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    
+}
+
+#gnb > ul > li{
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    min-width: 100px;
+    
+}
+#gnb > ul > li:last-child {
+    width: auto;
+    margin-left: 20px;
+  }
+  
+
+/* 1단계 */
+#gnb ul > li  > a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    
+  }
+
+#gnb ul > li > a:hover{
+    color: #0dadea;
+    
+}
+
+  /* 2단계 */
+  #gnb .depth2 > li {
+    margin-bottom: 5px;
+    
+  }
+#gnb .depth2 > li > a{
+    font-size: 15px;
+}
+ 
+/* 2단계 액션 */
+#gnb .depth2{
+    display: none;
+    margin-top: 0.5em;
+    
+}
+
+#gnb .depth2.on{
+    display: block;
+    
+}
+
+/* header */
+
+.section-bg{
+    width: 100%;
+    height:700px;
+    background: #666;
+    display: flex;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #797677;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.section-bg .title-group {
+    /* outline: 2px solid red; */
+    text-align: center;  
+  }
+
+  .section-bg .title-text > h2{
+      margin-top: 0.5em;
+      font-size: 24px;
+      
+  }
+
+  .section-bg .SNB > li > a{
+    text-align: center;
+      font-size: 15px;
+  }
+
+  .section-bg .SNB > li{
+      margin-top: 2em;
+      display: inline-block;
+  }
+
+
+
+
+  .section-bg .SNB > li > span {
+    margin-left: 1em;
+    margin-right: 1em;
+    opacity: 0.75;
+    font-size: 12px;
+    text-align: center;
+  
+  }
+
+  #Microsoft-365{
+    background-image: url(/project/images/Microsoft365-bg.jpg);
+    background-size: cover;
+  }
+
+  #Office{
+      background-image: url(/project/images/Office-bg.jpg);
+      background-size: cover;
+  }
+
+  #Windows{
+      background-image: url(/project/images/Windows-bg.jpg);
+      background-size: cover;
+  }
+
+  #Surface{
+      background-image: url(/project/images/Surface-bg.jpg);
+      background-size: cover;
+  }
+
+  #Xbox{
+      background-image: url(/project/images/Xbox-bg.jpg);
+      background-repeat: no-repeat;
+      background-color: #f6f6f5;
+      text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+      color: #fff;
+      background-position-y: 80%;
+  }
+
+  #Xbox .SNB > li > a {
+      color: #fff;
+  }
+
+  #Xbox .SNB  .Game {
+    color: #fff;
+    width: 98px;
+    height: 42px;
+    background-color: #107C10;
+    /* outline: 1px solid red; */
+    padding: 10px;
+}
+
+/* Section */
+
+footer {
+    position: relative;
+    /* background: #363636; */
+    /* color: #616161; */
+    font-size: 10px;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 50px;
+
+  }
+  
+
+  footer .f-left{
+      float: left;
+      margin-left: 30px;
+  }
+
+  footer .f-logo{
+      float: left;
+  }
+
+  footer .f-language{
+      float: left;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 20px;
+      margin-right: 10px;
+  }
+
+  footer .f-language-text{
+      margin-top: 8px;
+      float: left;
+     
+      /* outline: 1px solid red; */
+     
+  }
+
+  footer .f-language-text > a{
+      color: #616161;
+
+  }
+
+  footer .f-right{
+      float: right;
+      /* outline: 1px solid red; */
+      margin-top: 10px;
+  }
+  footer .f-right .footer-nav > li > a{
+      color: #616161;
+
+  }
+
+  footer .f-right .footer-nav > li > a >span{
+    font-weight: bold;
+
+}
+
+  footer .f-right .footer-nav > li{
+      margin-left: 50px;
+      display: inline-block;
+      text-align: center;
+      color: #616161;
+      
+  }
+
+  footer .f-right .footer-nav > li:last-child{
+      margin-right: 30px;
+  }
+
