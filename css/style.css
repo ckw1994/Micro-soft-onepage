@@ -24,8 +24,8 @@ header{
     position: relative;
     /* background: #999; */
    
-    border-bottom: 1px solid #797677;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    /* border-bottom: 1px solid #797677; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -45,7 +45,7 @@ header .logo {
     float: left;
     margin-left: 50px;
     text-align: center;
-    min-width: 100px;
+    min-width: 150px;
     
 }
 #gnb > ul > li:last-child {
@@ -99,8 +99,8 @@ header .logo {
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #797677;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    /* border-bottom: 1px solid #797677; */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); */
 
 }
 
@@ -191,7 +191,7 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
     height: 50px;
-
+    /* border-top: 1px solid #706d6e; */
   }
   
 
