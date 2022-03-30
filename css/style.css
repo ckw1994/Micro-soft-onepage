@@ -139,27 +139,27 @@ header .logo {
   }
 
   #Microsoft-365{
-    background-image: url(/project/images/Microsoft365-bg.jpg);
+    background-image: url(../images/Microsoft365-bg.jpg);
     background-size: cover;
   }
 
   #Office{
-      background-image: url(/project/images/Office-bg.jpg);
+      background-image: url(../images/Office-bg.jpg);
       background-size: cover;
   }
 
   #Windows{
-      background-image: url(/project/images/Windows-bg.jpg);
+      background-image: url(../images/Windows-bg.jpg);
       background-size: cover;
   }
 
   #Surface{
-      background-image: url(/project/images/Surface-bg.jpg);
+      background-image: url(../images/Surface-bg.jpg);
       background-size: cover;
   }
 
   #Xbox{
-      background-image: url(/project/images/Xbox-bg.jpg);
+      background-image: url(../images/Xbox-bg.jpg);
       background-repeat: no-repeat;
       background-color: #f6f6f5;
       text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
