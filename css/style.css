@@ -68,8 +68,18 @@ header .logo {
 }
 
   /* 2단계 */
+  #gnb .depth2 {
+      background-color: #fff;
+
+  }
   #gnb .depth2 > li {
     margin-bottom: 5px;
+    
+  }
+
+  #gnb .depth2 > li:last-child {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
     
   }
 #gnb .depth2 > li > a{
